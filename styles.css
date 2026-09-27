@@ -125,5 +125,27 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    flex: 1;
+  }
+  .call-to-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    padding: 40px 40px;
+    border-radius: 5px;
+  }
+  h3,p{
+    color: white;
+  }
+  .part4 button{
+    background-color: #3882F6;
+    font-size: 16px;
+    border-radius: 6px;
+    border-color: #E5E7EB;
+    color:#E5E7EB ;
+    width: 120px;
+    padding: 5px 8px;
   }
   
