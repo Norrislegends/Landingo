@@ -5,19 +5,20 @@
   body{
     display: flex;
     flex-direction: column;
-    flex: 1;
     font-family: "Roboto",sans-serif; 
-    height: 100vh;
+    height: 150vh;
   }
   a{
     text-decoration: none;
     color: #F9FAF8;
   }
+  .part1,.part2,.part3{
+    flex: 1;
+  }
   .part1{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 450px;
   }
   header{
     width: 1000px;
@@ -76,7 +77,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 450px;
   }
   .part2 h2{
     font-size: 36px;
@@ -100,3 +100,30 @@
     height: 150px;
     border-radius: 7px;
   }
+  .part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;  
+  }
+  .quote-container{
+    width: 800px;
+  }
+  .quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .author{
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+  }
+   .part4{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
